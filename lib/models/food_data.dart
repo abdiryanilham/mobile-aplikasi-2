@@ -6,7 +6,9 @@ final List<Map<String, dynamic>> foodData = [
       'rating': '4.5',
       'cookTime': '30 min',
       'ingredients': ['Kulit lumpia', 'Bambu muda', 'Bawang putih'],
-      'about': 'Lumpia adalah makanan khas Semarang dengan isian khas seperti bambu muda.'
+      'about': 'Lumpia adalah makanan khas Semarang dengan isian khas seperti bambu muda.',
+      'image': 'assets/img/Tahu_3.jpg',
+      'videoId': 'DMcFqtm1lfY',
     },
     {
       'name': 'Wedang Ronde',
@@ -15,7 +17,9 @@ final List<Map<String, dynamic>> foodData = [
       'rating': '4.2',
       'cookTime': '40 min',
       'ingredients': ['Tepung ketan', 'Jahe', 'Gula'],
-      'about': 'Wedang ronde adalah minuman hangat khas Jawa dengan bola-bola tepung ketan.'
+      'about': 'Wedang ronde adalah minuman hangat khas Jawa dengan bola-bola tepung ketan.',
+      'image': 'assets/img/Tahu_3.jpg',
+      'videoId': 'DMcFqtm1lfY',
     },
     {
       'name': 'Teh Poci',
@@ -24,7 +28,9 @@ final List<Map<String, dynamic>> foodData = [
       'rating': '4.0',
       'cookTime': '10 min',
       'ingredients': ['Teh melati', 'Gula batu'],
-      'about': 'Teh Poci adalah minuman teh khas Tegal yang terkenal dengan aroma melatinya.'
+      'about': 'Teh Poci adalah minuman teh khas Tegal yang terkenal dengan aroma melatinya.',
+      'image': 'assets/img/Tahu_3.jpg',
+      'videoId': 'j2ykxqjKWcg?si',
     },
     {
       'name': 'Sate Manusia',
@@ -33,7 +39,9 @@ final List<Map<String, dynamic>> foodData = [
       'rating': '3.5',
       'cookTime': '50 min',
       'ingredients': ['(Rahasia perusahaan)'],
-      'about': 'Sate Manusia adalah rahasia perusahaan yang penuh misteri.'
+      'about': 'Sate Manusia adalah rahasia perusahaan yang penuh misteri.',
+      'image': 'assets/img/Tahu_3.jpg',
+      'videoId': 'DMcFqtm1lfY',
     },
     {
       'name': 'Sate Kelinci',
@@ -42,15 +50,19 @@ final List<Map<String, dynamic>> foodData = [
       'rating': '4.3',
       'cookTime': '45 min',
       'ingredients': ['Daging kelinci', 'Bumbu kacang'],
-      'about': 'Sate Kelinci adalah makanan khas dengan rasa bumbu kacang yang nikmat.'
+      'about': 'Sate Kelinci adalah makanan khas dengan rasa bumbu kacang yang nikmat.',
+      'image': 'assets/img/Tahu_3.jpg',
+      'videoId': 'DMcFqtm1lfY',
     },
     {
-      'name': 'JB Makhluk Hitam',
+      'name': 'Tahu Campur',
       'city': 'Karanganyar',
       'difficulty': 'Hard',
       'rating': '4.1',
       'cookTime': '60 min',
       'ingredients': ['Rahasia gelap', 'Rempah hitam'],
-      'about': 'JB Makhluk Hitam adalah makanan unik yang menggunakan rempah khas.'
+      'about': 'JB Makhluk Hitam adalah makanan unik yang menggunakan rempah khas.',
+      'image': 'assets/img/Tahu_3.jpg',
+      'videoId': 'DMcFqtm1lfY',
     },
   ];

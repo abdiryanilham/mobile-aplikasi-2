@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-// import 'package:central_javreseps/models/food.dart';
+import 'package:provider/provider.dart';
+import 'package:youtube_player_iframe/youtube_player_iframe.dart';
+import '../providers/wishlist_provider.dart';
 
 class FoodDetailPage extends StatefulWidget {
   final String name;
@@ -9,6 +11,8 @@ class FoodDetailPage extends StatefulWidget {
   final String cookTime;
   final List<String> ingredients;
   final String about;
+  final String videoId;
+  final String image;
 
   const FoodDetailPage({
     super.key,
@@ -19,6 +23,8 @@ class FoodDetailPage extends StatefulWidget {
     required this.cookTime,
     required this.ingredients,
     required this.about,
+    required this.videoId,
+    required this.image,
   });
 
   @override
@@ -26,11 +32,50 @@ class FoodDetailPage extends StatefulWidget {
 }
 
 class _FoodDetailPageState extends State<FoodDetailPage> {
-  bool isFavorite = false;
   bool showIngredients = true;
+
+  late YoutubePlayerController _controller;
+
+  @override
+  void initState() {
+    super.initState();
+
+   _controller = YoutubePlayerController.fromVideoId(
+  videoId: widget.videoId,
+  params: const YoutubePlayerParams(
+    // showControls: true,            // Tampilkan kontrol
+    // showFullscreenButton: true,    // Tampilkan tombol layar penuh
+    // loop: false,                   // Tidak mengulang video secara otomatis
+    mute: false,                   // Video tidak dimatikan suaranya
+  ),
+);
+
+
+  }
+
+  @override
+  void dispose() {
+    _controller.close();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
+    final wishlistProvider = Provider.of<WishlistProvider>(context);
+    final Map<String, dynamic> food = {
+      'name': widget.name,
+      'city': widget.city,
+      'difficulty': widget.difficulty,
+      'rating': widget.rating,
+      'cookTime': widget.cookTime,
+      'ingredients': widget.ingredients,
+      'about': widget.about,
+      'image': widget.image,
+      'videoId': widget.videoId,
+    };
+
+    final isFavorite = wishlistProvider.isInWishlist(food);
+
     return Scaffold(
       body: SafeArea(
         child: Padding(
@@ -38,15 +83,28 @@ class _FoodDetailPageState extends State<FoodDetailPage> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              // Gambar & tombol favorit
               Stack(
                 children: [
-                  const Placeholder(fallbackHeight: 200), // Ganti dengan gambar
+                   Container(
+                    decoration: BoxDecoration(borderRadius: BorderRadius.circular(100,)),
+                      width: MediaQuery.of(context).size.width,
+                      height: 400, // full width
+                      child: Padding(
+                        padding: const EdgeInsets.only(top: 80.0), // Padding top 16
+                        child: AspectRatio(
+                          aspectRatio: 16 / 9,
+                          child: YoutubePlayer(
+                            controller: _controller,
+                          ),
+                        ),
+                      ),
+                    ),
+
                   Positioned(
                     top: 8,
                     left: 8,
                     child: CircleAvatar(
-                      backgroundColor: Colors.white,
+                      backgroundColor: Color(0xffFFCCBA),
                       child: BackButton(color: Colors.deepOrange),
                     ),
                   ),
@@ -55,17 +113,21 @@ class _FoodDetailPageState extends State<FoodDetailPage> {
                     right: 8,
                     child: IconButton(
                       onPressed: () {
-                        setState(() {
-                          isFavorite = !isFavorite;
-                        });
-
-                        ScaffoldMessenger.of(context).showSnackBar(
-                          SnackBar(
-                            content: Text(isFavorite
-                                ? 'Ditambahkan ke watchlist'
-                                : 'Dihapus dari watchlist'),
-                          ),
-                        );
+                        if (isFavorite) {
+                          wishlistProvider.removeFromWishlist(food);
+                          ScaffoldMessenger.of(context).showSnackBar(
+                            const SnackBar(
+                              content: Text('Dihapus dari watchlist'),
+                            ),
+                          );
+                        } else {
+                          wishlistProvider.addToWishlist(food);
+                          ScaffoldMessenger.of(context).showSnackBar(
+                            const SnackBar(
+                              content: Text('Ditambahkan ke watchlist'),
+                            ),
+                          );
+                        }
                       },
                       icon: Icon(
                         isFavorite ? Icons.favorite : Icons.favorite_border,
@@ -78,15 +140,16 @@ class _FoodDetailPageState extends State<FoodDetailPage> {
               const SizedBox(height: 10),
               Text(widget.difficulty, style: const TextStyle(color: Colors.deepOrange)),
               const SizedBox(height: 5),
-              Text(widget.name,
-                  style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
+              Text(widget.name, style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
               const SizedBox(height: 5),
               const Text("Cook Time", style: TextStyle(color: Colors.grey)),
-              Text(widget.cookTime,
-                  style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
-              const SizedBox(height: 10),
+              Text(widget.cookTime, style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+              const SizedBox(height: 16),
 
-              // Tab tombol Ingredients / About
+
+              
+
+              /// TAB INGREDIENTS / ABOUT
               Row(
                 children: [
                   Expanded(
@@ -99,12 +162,12 @@ class _FoodDetailPageState extends State<FoodDetailPage> {
                           borderRadius: BorderRadius.circular(20),
                           border: Border.all(color: Colors.deepOrange),
                         ),
-                        child: Center(
+                        child: const Center(
                           child: Text(
                             "Ingredients",
                             style: TextStyle(
                               fontWeight: FontWeight.bold,
-                              color: showIngredients ? Colors.deepOrange : Colors.black,
+                              color: Colors.deepOrange,
                             ),
                           ),
                         ),
@@ -122,12 +185,12 @@ class _FoodDetailPageState extends State<FoodDetailPage> {
                           borderRadius: BorderRadius.circular(20),
                           border: Border.all(color: Colors.deepOrange),
                         ),
-                        child: Center(
+                        child: const Center(
                           child: Text(
                             "About",
                             style: TextStyle(
                               fontWeight: FontWeight.bold,
-                              color: !showIngredients ? Colors.deepOrange : Colors.black,
+                              color: Colors.deepOrange,
                             ),
                           ),
                         ),
@@ -138,7 +201,7 @@ class _FoodDetailPageState extends State<FoodDetailPage> {
               ),
               const SizedBox(height: 10),
 
-              // Konten Ingredients atau About
+              /// CONTENT
               Expanded(
                 child: SingleChildScrollView(
                   child: showIngredients

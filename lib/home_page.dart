@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:central_javreseps/components/detail_food.dart' as detail;
 import 'package:central_javreseps/components/food_card.dart';
 import 'package:central_javreseps/components/difficulty_filter.dart';
-import 'package:central_javreseps/data/food_data.dart';
+import 'package:central_javreseps/models/food_data.dart';
 
 
 class HomePage extends StatefulWidget {
@@ -107,7 +107,9 @@ class _HomePageState extends State<HomePage> {
                           rating: food['rating'],
                           cookTime: food['cookTime'],
                           ingredients: List<String>.from(food['ingredients']),
-                          about: food['about'], // Menambahkan argumen about
+                          about: food['about'],
+                          videoId: food['videoId'],
+                          image: food['image'],
                         ),
                       ),
                     );
@@ -117,6 +119,7 @@ class _HomePageState extends State<HomePage> {
                     city: food['city'],
                     difficulty: food['difficulty'],
                     rating: food['rating'],
+                    image: food['image'],
                   ),
                 );
               },

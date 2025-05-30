@@ -1,12 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:provider/provider.dart';
 import 'home_page.dart';
 import 'search_page.dart';
 import 'watchlist_page.dart';
 import 'splash.dart';
+import 'providers/wishlist_provider.dart'; // Impor WishlistProvider
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: (_) => WishlistProvider()),
+      ],
+      child: const MyApp(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
@@ -53,7 +62,7 @@ class _MainPageState extends State<MainPage> {
     return SvgPicture.asset(
       assetName,
       width: 40,
-      height:40,
+      height: 40,
       color: _currentIndex == index ? Colors.deepOrange : Colors.grey,
     );
   }

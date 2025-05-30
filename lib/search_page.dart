@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:central_javreseps/components/food_card.dart';
 import 'package:central_javreseps/components/detail_food.dart' as detail;
-import 'package:central_javreseps/data/food_data.dart'; // pastikan file ini ada
+import 'package:central_javreseps/models/food_data.dart';
 
 class SearchPage extends StatefulWidget {
   const SearchPage({super.key});
@@ -17,10 +17,10 @@ class _SearchPageState extends State<SearchPage> {
   @override
   Widget build(BuildContext context) {
     // Filter makanan berdasarkan query pencarian
-   final filteredFoods = foodData.where((food) {
-  final name = food['name'].toString().toLowerCase();
-  return name.contains(searchQuery.toLowerCase());
-}).toList();
+    final filteredFoods = foodData.where((food) {
+      final name = food['name']?.toString().toLowerCase() ?? '';
+      return name.contains(searchQuery.toLowerCase());
+    }).toList();
 
     return Scaffold(
       backgroundColor: Colors.white,
@@ -75,7 +75,7 @@ class _SearchPageState extends State<SearchPage> {
 
             const SizedBox(height: 16),
 
-            // Horizontal scrollable cards (Placeholder)
+            // Horizontal scrollable cards (Placeholder) //
             SingleChildScrollView(
               scrollDirection: Axis.horizontal,
               child: Padding(
@@ -129,6 +129,8 @@ class _SearchPageState extends State<SearchPage> {
                             cookTime: food['cookTime'],
                             ingredients: List<String>.from(food['ingredients']),
                             about: food['about'],
+                            videoId: food['videoId'],
+                            image: food['image'],
                           ),
                         ),
                       );
@@ -138,6 +140,7 @@ class _SearchPageState extends State<SearchPage> {
                       city: food['city'],
                       difficulty: food['difficulty'],
                       rating: food['rating'],
+                      image: food['image'],
                     ),
                   );
                 },
