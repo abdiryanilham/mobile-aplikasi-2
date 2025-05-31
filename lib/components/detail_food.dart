@@ -144,7 +144,7 @@ class _FoodDetailPageState extends State<FoodDetailPage> {
               const SizedBox(height: 5),
               const Text("Cook Time", style: TextStyle(color: Colors.grey)),
               Text(widget.cookTime, style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
-              const SizedBox(height: 16),
+              const SizedBox(height: 30),
 
 
               
@@ -199,7 +199,7 @@ class _FoodDetailPageState extends State<FoodDetailPage> {
                   ),
                 ],
               ),
-              const SizedBox(height: 10),
+              const SizedBox(height: 50),
 
               /// CONTENT
               Expanded(
