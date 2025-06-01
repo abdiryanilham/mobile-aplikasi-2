@@ -1,9 +1,9 @@
+import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:central_javreseps/components/detail_food.dart' as detail;
 import 'package:central_javreseps/components/food_card.dart';
 import 'package:central_javreseps/components/difficulty_filter.dart';
 import 'package:central_javreseps/models/food_data.dart';
-
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -14,9 +14,73 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   String selectedDifficulty = 'Easy';
+  late PageController _pageController;
+  int _currentPage = 0;
+  Timer? _timer;
 
-  // final filteredFoods = foodData.where((food) => food['name'].toString().contains(query)).toList();
+  final List<Widget> banners = [
+  Card(
+    child: SizedBox(
+      width: double.infinity,
+      height: 400,
+      child: Image.asset(
+        'assets/icon/Frame 280.png',
+        fit: BoxFit.cover,
+      ),
+    ),
+  ),
+  Card(
+    child: SizedBox(
+      width: double.infinity,
+      height: 400,
+      child: Image.asset(
+        'assets/icon/Frame 281.png',
+        fit: BoxFit.cover,
+      ),
+    ),
+  ),
+  Card(
+    child: SizedBox(
+      width: double.infinity,
+      height: 400,
+      child: Image.asset(
+        'assets/icon/Rectangle 1 (1).png',
+        fit: BoxFit.cover,
+      ),
+    ),
+  ),
+];
 
+
+
+  @override
+  void initState() {
+    super.initState();
+    _pageController = PageController(viewportFraction: 0.9);
+    _startAutoScroll();
+  }
+
+  void _startAutoScroll() {
+    _timer = Timer.periodic(const Duration(seconds: 3), (Timer timer) {
+      if (_currentPage < banners.length - 1) {
+        _currentPage++;
+      } else {
+        _currentPage = 0;
+      }
+      _pageController.animateToPage(
+        _currentPage,
+        duration: const Duration(milliseconds: 500),
+        curve: Curves.easeInOut,
+      );
+    });
+  }
+
+  @override
+  void dispose() {
+    _pageController.dispose();
+    _timer?.cancel();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -25,13 +89,12 @@ class _HomePageState extends State<HomePage> {
         .toList();
 
     return Scaffold(
-        backgroundColor: Colors.white,
+      backgroundColor: Colors.white,
       body: SingleChildScrollView(
         child: Column(
-          children: [ 
+          children: [
             const SizedBox(height: 30),
             const Padding(
-              
               padding: EdgeInsets.all(16),
               child: Align(
                 alignment: Alignment.centerLeft,
@@ -41,40 +104,21 @@ class _HomePageState extends State<HomePage> {
                 ),
               ),
             ),
-           
 
-            SingleChildScrollView(
-              scrollDirection: Axis.horizontal,
-              child: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 10),
-                child: Row(
-                  children: const [
-                    Card(
-                      child: SizedBox(
-                        width: 400,
-                        height: 250,
-                        child: Center(child: Text("Resep A")),
-                      ),
-                    ),
-                    Card(
-                      child: SizedBox(
-                        width: 400,
-                        height: 250,
-                        child: Center(child: Text("Resep B")),
-                      ),
-                    ),
-                    Card(
-                      child: SizedBox(
-                        width: 400,
-                        height: 250,
-                        child: Center(child: Text("Resep C")),
-                      ),
-                    ),
-                  ],
-                ),
+            /// Auto Slider
+            SizedBox(
+              height: 250,
+              child: PageView.builder(
+                controller: _pageController,
+                itemCount: banners.length,
+                itemBuilder: (context, index) {
+                  return Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 10),
+                    child: banners[index],
+                  );
+                },
               ),
             ),
-
 
             const SizedBox(height: 30),
             Padding(

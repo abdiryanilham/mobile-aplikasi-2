@@ -150,19 +150,19 @@ class _FoodDetailPageState extends State<FoodDetailPage> {
               
 
               /// TAB INGREDIENTS / ABOUT
+              /// TAB INGREDIENTS / ABOUT
               Row(
                 children: [
                   Expanded(
                     child: GestureDetector(
                       onTap: () => setState(() => showIngredients = true),
                       child: Container(
-                        padding: const EdgeInsets.symmetric(vertical: 10),
+                        padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 30),
                         decoration: BoxDecoration(
                           color: showIngredients ? Colors.deepOrange[100] : Colors.transparent,
                           borderRadius: BorderRadius.circular(20),
-                          border: Border.all(color: Colors.deepOrange),
                         ),
-                        child: const Center(
+                        child: Center(
                           child: Text(
                             "Ingredients",
                             style: TextStyle(
@@ -179,13 +179,12 @@ class _FoodDetailPageState extends State<FoodDetailPage> {
                     child: GestureDetector(
                       onTap: () => setState(() => showIngredients = false),
                       child: Container(
-                        padding: const EdgeInsets.symmetric(vertical: 10),
+                        padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 30),
                         decoration: BoxDecoration(
                           color: !showIngredients ? Colors.deepOrange[100] : Colors.transparent,
                           borderRadius: BorderRadius.circular(20),
-                          border: Border.all(color: Colors.deepOrange),
                         ),
-                        child: const Center(
+                        child: Center(
                           child: Text(
                             "About",
                             style: TextStyle(
@@ -199,7 +198,7 @@ class _FoodDetailPageState extends State<FoodDetailPage> {
                   ),
                 ],
               ),
-              const SizedBox(height: 50),
+              const SizedBox(height: 20), // jangan terlalu tinggi
 
               /// CONTENT
               Expanded(
@@ -210,11 +209,18 @@ class _FoodDetailPageState extends State<FoodDetailPage> {
                           children: widget.ingredients
                               .map((item) => Padding(
                                     padding: const EdgeInsets.only(bottom: 6),
-                                    child: Text("• $item"),
+                                    child: Text(
+                                      "• $item",
+                                      style: TextStyle(fontSize: 16),
+                                    ),
                                   ))
                               .toList(),
                         )
-                      : Text(widget.about),
+                      : Text(
+                          widget.about,
+                          style: TextStyle(fontSize: 16),
+                          textAlign: TextAlign.justify,
+                        ),
                 ),
               ),
             ],

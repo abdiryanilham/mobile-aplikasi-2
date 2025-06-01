@@ -12,9 +12,11 @@ class WatchlistPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
+        backgroundColor: Color(0xffFFFFFF),
         title: const Text('Watchlist',
-         style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),),
+         style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold,),),
       ),
+      
       body: wishlist.isEmpty
           ? const Center(
             

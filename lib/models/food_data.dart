@@ -95,7 +95,7 @@ final List<Map<String, dynamic>> foodData = [
   ],
   "about": "Soto Sokaraja adalah varian soto khas daerah Sokaraja, Kabupaten Banyumas, Jawa Tengah. Berbeda dari soto lain di Indonesia, soto ini memiliki ciri khas kuah kaldu sapi yang disajikan dengan sambal kacang dan kecap manis, menciptakan perpaduan rasa gurih, manis, dan pedas yang khas. Soto Sokaraja juga menggunakan kerupuk kanji merah sebagai pelengkap utama. Keunikan lainnya adalah tekstur kuah yang lebih kental dan beraroma rempah kuat. Biasanya disajikan dengan potongan ketupat atau lontong, serta daging sapi atau jeroan. Kuliner ini berkembang dari pengaruh budaya Banyumas yang terkenal dengan cita rasa manis dan kaya rempah. Menyantap Soto Sokaraja terasa seperti merasakan warisan kuliner khas Jawa yang sarat tradisi.",
 
-  'image': 'assets/img/Tahu_3.jpg',
+  'image': 'assets/img/soto sokaraja.jpg',
   'videoId': 'yHXqRK5muy8',
     },
     {
@@ -121,7 +121,7 @@ final List<Map<String, dynamic>> foodData = [
     "Minyak untuk menumis"
   ],
   "about": "Sotong Ireng adalah hidangan khas dari Kabupaten Purworejo, Jawa Tengah, yang terbuat dari cumi-cumi yang dimasak bersama tinta hitamnya. Dalam bahasa Jawa, 'ireng' berarti hitam, menggambarkan warna dominan dari masakan ini. Cita rasanya gurih, sedikit manis, dan pedas, dengan aroma laut yang khas. Biasanya disajikan dengan nasi hangat dan lalapan. Makanan ini sering dimasak dalam acara keluarga atau sebagai hidangan istimewa pada hari-hari tertentu. Cumi hitam dianggap lebih lezat karena tintanya memberikan rasa umami yang khas. Sotong Ireng mencerminkan kelezatan kuliner pesisir selatan Jawa yang kaya akan hasil laut dan bumbu tradisional.",
-      'image': 'assets/img/Tahu_3.jpg',
+      'image': 'assets/img/Sotong Ireng.jpg',
       'videoId': 'qxdgSAmn4nA',
     },
     {
@@ -157,7 +157,7 @@ final List<Map<String, dynamic>> foodData = [
     "Minyak untuk menumis"
   ],
   "about": "Soto Krandegan adalah makanan khas dari Desa Krandegan, Kabupaten Banjarnegara, Jawa Tengah. Berbeda dengan soto pada umumnya, Soto Krandegan menggunakan kuah santan berwarna kuning yang kaya rempah, menciptakan rasa gurih dan khas. Isian utamanya adalah daging sapi atau jeroan, disajikan dengan ketupat, tauge, dan telur rebus, lalu dilengkapi dengan kerupuk merah dan bawang goreng. Soto ini merupakan warisan kuliner turun-temurun yang biasa disajikan dalam acara hajatan atau hari besar. Nama 'Krandegan' berasal dari tempat asalnya, dan kini hidangan ini telah menjadi ikon kuliner Banjarnegara yang banyak dicari wisatawan.",
-      'image': 'assets/img/Tahu_3.jpg',
+      'image': 'assets/img/Soto Krandegan.jpg',
       'videoId': 'vh5eOw7Mpnc',
     },
     {
@@ -189,7 +189,7 @@ final List<Map<String, dynamic>> foodData = [
     "Garam dan gula secukupnya"
   ],
   "about": "Buntil Daun Pepaya adalah hidangan tradisional khas Jawa Tengah, khususnya populer di daerah seperti Purworejo dan sekitarnya. Hidangan ini terdiri dari kelapa parut berbumbu yang dibungkus dengan daun pepaya muda, lalu direbus dengan santan dan rempah. Meskipun menggunakan daun pepaya yang dikenal pahit, proses perebusan dan penggunaan bumbu yang kaya membuat rasa buntil menjadi gurih, pedas, dan sedikit pahit yang justru menjadi ciri khasnya. Makanan ini biasa disajikan sebagai lauk pendamping nasi, terutama saat bulan puasa atau acara kenduri. Buntil menjadi contoh bagaimana masyarakat Jawa memanfaatkan bahan sederhana dari alam menjadi hidangan bergizi dan lezat.",
-  'image': 'assets/img/Tahu_3.jpg',
+  'image': 'assets/img/Buntil Daun Pepaya.jpg',
       'videoId': 'HKqcK6RZshI',
     },
     {
@@ -210,7 +210,7 @@ final List<Map<String, dynamic>> foodData = [
     "Minyak goreng"
   ],
   "about": "Nasi Kobong adalah makanan khas dari Semarang yang dikenal dengan nama yang unik yang berarti 'nasi terbakar'. Asal usulnya konon berasal dari sebuah peristiwa di mana nasi yang sengaja dibakar sedikit di dasar kuali memberikan aroma dan rasa khas yang kemudian disukai oleh masyarakat. Nasi ini disajikan dengan berbagai lauk pelengkap seperti ayam suwir, telur rebus, sambal goreng, dan kerupuk. Cita rasanya gurih dan sedikit aroma gosong dari dasar nasi memberikan sensasi unik yang menjadi ciri khas nasi kobong.",
-      'image': 'assets/img/Tahu_3.jpg',
+      'image': 'assets/img/Nasi Kobong.jpeg',
       'videoId': 'l90dfCw_Hs4',
     },
     {
@@ -234,7 +234,7 @@ final List<Map<String, dynamic>> foodData = [
     "Serai"
   ],
   "about": "Kraca adalah hidangan tradisional khas Karanganyar yang dibuat dengan daging yang dimasak bersama bumbu rempah yang kuat dan kompleks. Ciri khas utama Kraca adalah penggunaan rempah-rempah pekat yang memberikan rasa pedas, gurih, dan sedikit manis. Proses memasak Kraca biasanya memakan waktu cukup lama agar bumbu meresap sempurna dan daging menjadi empuk. Hidangan ini sering disajikan pada acara adat atau perayaan khusus di Karanganyar sebagai simbol kekayaan kuliner dan tradisi masyarakat setempat.",
-      'image': 'assets/img/Tahu_3.jpg',
+      'image': 'assets/img/Kraca.jpg',
       'videoId': '-Q12ros9cv8',
     },
     {
@@ -257,7 +257,7 @@ final List<Map<String, dynamic>> foodData = [
     "Tusuk sate"
   ],
   "about": "Sate Kere adalah makanan khas Semarang yang awalnya merupakan makanan rakyat miskin (kere berarti miskin). Terbuat dari bahan sederhana seperti tempe setengah tua dan tulang sapi, sate ini dimasak dengan bumbu yang kaya rempah sehingga menghasilkan rasa gurih dan lezat. Sate Kere terkenal karena rasa bumbunya yang kuat dan tekstur tempe yang unik. Saat ini, Sate Kere menjadi salah satu kuliner legendaris yang digemari banyak orang dan sering dijajakan di pasar-pasar tradisional maupun festival kuliner di Jawa Tengah.",
-      'image': 'assets/img/Tahu_3.jpg',
+      'image': 'assets/img/Sate Kere.jpg',
       'videoId': 'rbTs6O0jbnI',
     },
     {
@@ -292,7 +292,7 @@ final List<Map<String, dynamic>> foodData = [
     "1 batang serai, memarkan"
   ],
   "about": "Soto Kebo merupakan salah satu kuliner khas dari Kudus, Jawa Tengah. Seperti namanya, soto ini menggunakan daging kerbau sebagai bahan utama. Penggunaan kerbau adalah bentuk penghormatan terhadap budaya Hindu yang dulu kuat di Kudus, yang menganggap sapi sebagai hewan suci. Cita rasa Soto Kebo cenderung lebih gurih dan kaya rempah dibanding soto ayam biasa. Disajikan dengan tauge, seledri, dan telur rebus, Soto Kebo menjadi pilihan kuliner yang unik sekaligus sarat nilai sejarah dan budaya lokal.",
-      'image': 'assets/img/Tahu_3.jpg',
+      'image': 'assets/img/Soto Kebo.jpg',
       'videoId': 'qXEGm7Rcyjg',
     },
     {
@@ -331,7 +331,7 @@ final List<Map<String, dynamic>> foodData = [
     "Minyak untuk menggoreng"
   ],
   "about": "Soto Kletuk merupakan makanan khas dari Blora, Jawa Tengah, yang dikenal karena taburan 'kletuk' di atasnya—yaitu tepung goreng renyah yang menjadi ciri khas unik dari soto ini. Kuah soto kletuk berwarna kuning jernih dengan rasa gurih rempah yang ringan namun menggoda. Biasanya menggunakan daging sapi, soto ini disajikan dengan pelengkap seperti toge, seledri, dan bawang goreng. Kehadiran taburan kletuk menciptakan sensasi renyah dalam setiap suapan, menjadikannya berbeda dari soto-soto lainnya di Jawa Tengah.",
-      'image': 'assets/img/Tahu_3.jpg',
+      'image': 'assets/img/Soto Kletuk.jpg',
       'videoId': 'gcnUWz4PDo4',
     },
     {
@@ -358,7 +358,7 @@ final List<Map<String, dynamic>> foodData = [
     "Air panas secukupnya untuk mengencerkan"
   ],
   "about": "Jenang Pecel adalah perpaduan unik antara bubur (jenang) dan sambal kacang pecel yang berasal dari Wonogiri, Jawa Tengah. Hidangan ini mencerminkan kreativitas kuliner masyarakat Jawa yang menggabungkan tekstur lembut jenang dengan rasa gurih dan pedas dari pecel. Jenang yang digunakan biasanya tidak manis, sehingga cocok dipadukan dengan sambal kacang yang kaya rasa. Makanan ini biasa disajikan untuk sarapan atau dalam acara tradisional sebagai simbol keseimbangan antara kekuatan dan kelembutan dalam hidup.",
-      'image': 'assets/img/Tahu_3.jpg',
+      'image': 'assets/img/Jenang Pecel.jpg',
       'videoId': 'cLL4ZPeepIg',
     },
     {
@@ -377,7 +377,7 @@ final List<Map<String, dynamic>> foodData = [
     "Daun kelapa muda (janur) untuk pembungkus"
   ],
   "about": "Clorot adalah jajanan tradisional khas dari daerah Purworejo dan sekitarnya di Jawa Tengah. Ciri khas utama Clorot adalah bentuknya yang unik seperti corong kecil, dibungkus menggunakan janur (daun kelapa muda) dan diisi dengan adonan manis dari tepung beras dan gula merah. Kue ini memiliki rasa manis yang lembut dengan aroma santan dan pandan yang khas. Clorot biasa dijajakan di pasar tradisional dan sering hadir dalam hajatan atau kenduri sebagai simbol kesederhanaan dan kekayaan kuliner lokal. Proses pembuatannya membutuhkan keterampilan membentuk janur dan mengukus dengan hati-hati agar tidak tumpah.",
-      'image': 'assets/img/Tahu_3.jpg',
+      'image': 'assets/img/Clorot.jpeg',
       'videoId': 'IPsZNpaHOC8',
     },
     {
@@ -408,7 +408,7 @@ final List<Map<String, dynamic>> foodData = [
 
   ],
   "about": "Nasi Penggel adalah makanan khas dari Kebumen, Jawa Tengah, yang unik karena penyajiannya dalam bentuk bulatan-bulatan kecil nasi (penggel) yang disusun di atas daun pisang. Nasi ini disajikan bersama kuah tongseng yang gurih, biasanya menggunakan daging sapi atau kikil. Cita rasanya yang kaya rempah mencerminkan kekayaan rasa kuliner pesisir selatan Jawa. Dahulu, Nasi Penggel sering dijadikan bekal pekerja atau petani karena mudah dibawa dan disantap. Kini, Nasi Penggel menjadi menu tradisional yang masih dicari dan dilestarikan melalui penjual kaki lima hingga acara adat.",
-      'image': 'assets/img/Tahu_3.jpg',
+      'image': 'assets/img/Nasi Penggel.jpg',
       'videoId': 'crVAGrbQb0E',
     },
     {
@@ -429,7 +429,7 @@ final List<Map<String, dynamic>> foodData = [
     "Minyak untuk menggoreng"
   ],
   "about": "Yutuk Goreng adalah makanan khas dari pesisir Cilacap, Jawa Tengah, yang menggunakan yutuk—sejenis kepiting kecil yang hidup di pasir pantai—sebagai bahan utama. Makanan ini merupakan bentuk pemanfaatan hasil laut yang melimpah di daerah tersebut. Yutuk dibersihkan lalu dicampur dengan adonan tepung dan bumbu, kemudian digoreng hingga renyah. Rasanya gurih, renyah, dan sedikit manis alami dari daging yutuk. Biasanya disajikan sebagai lauk atau camilan dan menjadi favorit wisatawan yang berkunjung ke kawasan pantai selatan. Yutuk Goreng mencerminkan kedekatan masyarakat Cilacap dengan laut dan kreativitas dalam mengolah sumber daya lokal.",
-      'image': 'assets/img/Tahu_3.jpg',
+      'image': 'assets/img/Yutuk Goreng.jpg',
       'videoId': 'k911Cwgqpaw',
     },
     {
@@ -459,7 +459,7 @@ final List<Map<String, dynamic>> foodData = [
     "Rempeyek kacang atau kerupuk"
   ],
   "about": "Pecel Kenci merupakan variasi dari pecel khas daerah Magelang, Jawa Tengah, yang menggunakan kencur sebagai bumbu utama yang membedakannya dari pecel biasa. Aroma dan cita rasa kencur yang kuat memberikan sensasi segar dan khas pada sambal kacangnya. Seperti pecel pada umumnya, makanan ini terdiri dari berbagai sayuran rebus yang disiram sambal kacang, dan biasanya disajikan dengan nasi serta pelengkap seperti rempeyek. Pecel Kenci mencerminkan kekayaan bumbu tradisional Jawa, sekaligus menunjukkan bagaimana kearifan lokal dalam menggunakan bahan-bahan herbal seperti kencur dalam kuliner harian.",
-      'image': 'assets/img/Tahu_3.jpg',
+      'image': 'assets/img/Pecel Kenci.jpg',
       'videoId': '9QgpLPANC-0',
     },
     {
@@ -483,7 +483,7 @@ final List<Map<String, dynamic>> foodData = [
     "Bawang goreng"
   ],
   "about": "Mie Ongklok adalah hidangan mie khas dari Wonosobo, Jawa Tengah, yang memiliki kuah kental berisi kol dan kucai. Nama 'ongklok' berasal dari alat saringan bambu yang digunakan untuk merebus mie dan sayur, yaitu dengan cara dicelup-celupkan (di-ongklok). Mie Ongklok disajikan dengan kuah kental dari pati kanji dan kaldu sapi, serta diberi bumbu khas seperti kecap dan bawang putih. Cita rasa gurih, manis, dan sedikit pedas menjadikan mie ini sangat khas, apalagi jika dinikmati bersama sate sapi dan tempe kemul. Makanan ini mencerminkan iklim sejuk dan cita rasa khas pegunungan Dieng yang mempengaruhi gaya kulinernya.",
-      'image': 'assets/img/Tahu_3.jpg',
+      'image': 'assets/img/Mie Ongklok.jpg',
       'videoId': 'L7YGHpne9ko',
     },
     {
@@ -504,7 +504,7 @@ final List<Map<String, dynamic>> foodData = [
     "Bumbu kacang (opsional)"
   ],
   "about": "Sate Kelinci adalah hidangan khas Pati, Jawa Tengah, yang menggunakan daging kelinci sebagai bahan utama. Daging kelinci terkenal empuk dan rendah lemak, sehingga menjadi alternatif sehat untuk sate pada umumnya. Proses pembuatannya mirip dengan sate ayam atau kambing, yaitu daging yang sudah dibumbui ditusuk dan dipanggang di atas arang. Rasanya gurih dengan aroma bumbu yang meresap, dan biasanya disajikan dengan sambal kecap atau bumbu kacang. Sate Kelinci ini mencerminkan kearifan lokal dalam memanfaatkan sumber protein alternatif serta keberanian menghadirkan cita rasa yang berbeda dalam kuliner tradisional Jawa.",
-      'image': 'assets/img/Tahu_3.jpg',
+      'image': 'assets/img/Sate Kelinci.jpeg',
       'videoId': '8dgJfOegnAU',
     },
     {
@@ -527,7 +527,7 @@ final List<Map<String, dynamic>> foodData = [
     "Bawang goreng untuk taburan"
   ],
   "about": "Sop Buntut merupakan salah satu hidangan sup tradisional yang populer di Semarang dan daerah Jawa Tengah lainnya. Terbuat dari buntut sapi yang dimasak lama hingga empuk dengan bumbu sederhana namun kaya rasa. Sop Buntut disajikan dengan kuah bening yang gurih, dilengkapi dengan sayuran seperti wortel dan kentang. Hidangan ini sering menjadi sajian istimewa dalam acara keluarga dan restoran, mencerminkan kehangatan dan kekayaan kuliner lokal. Proses memasak yang memakan waktu cukup lama membuat daging buntut menjadi sangat empuk dan kuahnya terasa lezat.",
-      'image': 'assets/img/Tahu_3.jpg',
+      'image': 'assets/img/Sop Buntut.jpg',
       'videoId': 'Ozzk4_9wSGU',
     },
     {
@@ -552,7 +552,7 @@ final List<Map<String, dynamic>> foodData = [
     "Lemon atau jeruk nipis untuk pelengkap"
   ],
   "about": "Soto Boyolali adalah salah satu jenis soto khas dari Boyolali, Jawa Tengah yang terkenal dengan kuah kaldu yang bening dan gurih. Soto ini menggunakan daging ayam atau sapi dengan rempah yang sederhana tapi terasa kaya. Soto Boyolali biasanya disajikan dengan tambahan telur rebus, soun, dan taburan bawang goreng serta daun seledri. Rasa segar dari jeruk nipis menambah kenikmatan hidangan ini. Soto Boyolali merupakan warisan kuliner yang sudah lama dikenal di daerahnya dan menjadi favorit untuk santapan keluarga maupun acara khusus.",
-      'image': 'assets/img/Tahu_3.jpg',
+      'image': 'assets/img/Soto Boyolali.jpg',
       'videoId': 'F2iBvHMWOAM',
     },
     {
@@ -568,7 +568,7 @@ final List<Map<String, dynamic>> foodData = [
     "Garam secukupnya"
   ],
   "about": "Tahu Susu adalah salah satu produk olahan khas dari Boyolali, Jawa Tengah, yang terkenal sebagai daerah penghasil susu sapi segar. Tahu ini dibuat dengan mencampurkan susu sapi dan air, lalu mengendapkannya menggunakan cuka atau air jeruk nipis hingga menggumpal seperti tahu. Teksturnya lebih lembut dan rasa gurihnya khas karena berasal dari susu. Tahu Susu menjadi camilan sehat yang bisa dinikmati langsung setelah dikukus atau digoreng. Makanan ini mencerminkan pemanfaatan hasil peternakan lokal dan kreativitas masyarakat Boyolali dalam menciptakan produk pangan yang bergizi.",
-      'image': 'assets/img/Tahu_3.jpg',
+      'image': 'assets/img/Tahu Susu.jpg',
       'videoId': 'dGHVDbGeqYs',
     },
     {
@@ -584,7 +584,7 @@ final List<Map<String, dynamic>> foodData = [
     "Minyak goreng secukupnya"
   ],
   "about": "Kacang Mete dari Wonogiri merupakan salah satu camilan khas yang terkenal hingga luar daerah. Wonogiri memiliki iklim yang cocok untuk budidaya jambu mete, tanaman penghasil kacang mete. Proses pembuatannya cukup panjang karena biji mete perlu disangrai atau digoreng setelah melalui proses pengupasan yang cukup sulit. Kacang Mete biasanya digoreng kering dan dibumbui dengan garam atau bawang untuk menambah rasa gurih. Camilan ini tidak hanya enak, tetapi juga bernilai ekonomi tinggi karena sering dijadikan oleh-oleh khas dan diekspor ke luar daerah. Kacang Mete mencerminkan hasil pertanian lokal yang diolah secara tradisional namun memiliki nilai jual tinggi.",
-      'image': 'assets/img/Tahu_3.jpg',
+      'image': 'assets/img/Kacang Mete.jpg',
       'videoId': 'vqIe0Z3lerw',
     },
     {
@@ -603,7 +603,7 @@ final List<Map<String, dynamic>> foodData = [
     "Karak (kerupuk nasi kering) sebagai pelengkap"
   ],
   "about": "Cabuk, atau lebih dikenal sebagai *Cabuk Rambak*, adalah makanan khas Solo yang sederhana namun unik. Hidangan ini terdiri dari irisan ketupat yang disiram saus berbahan dasar wijen sangrai, bawang putih, dan cabai, yang dihaluskan lalu dicairkan dengan sedikit air. Disajikan bersama karak (kerupuk nasi), makanan ini biasanya dijajakan oleh penjual keliling atau disajikan dalam acara tradisional. Rasanya gurih dan agak pahit khas wijen sangrai, cocok sebagai kudapan pagi hari. Cabuk menggambarkan kesederhanaan kuliner khas Jawa yang penuh cita rasa dan sarat makna budaya.",
-      'image': 'assets/img/Tahu_3.jpg',
+      'image': 'assets/img/Cabuk.jpg',
       'videoId': '8A_TEFcmYvI',
     },
     {
@@ -619,7 +619,7 @@ final List<Map<String, dynamic>> foodData = [
     "Gula merah (opsional, untuk rasa manis)"
   ],
   "about": "Tiwul adalah makanan pokok pengganti nasi yang berasal dari daerah pegunungan seperti Gunungkidul, Wonogiri, dan sekitarnya. Dibuat dari gaplek, yaitu singkong yang dikeringkan lalu ditumbuk halus menjadi tepung, kemudian dikukus hingga matang. Tiwul dulunya identik dengan masa sulit saat beras sulit didapat, namun kini dihargai sebagai makanan sehat karena indeks glikemiknya lebih rendah dari nasi putih. Tiwul biasanya disajikan dengan taburan kelapa parut dan bisa diberi tambahan gula merah untuk rasa manis. Kuliner ini merepresentasikan kearifan lokal dalam memanfaatkan sumber daya alam setempat.",
-      'image': 'assets/img/Tahu_3.jpg',
+      'image': 'assets/img/Tiwul.jpg',
       'videoId': 'jvFbE9dIH-g',
     },
     {
@@ -637,7 +637,7 @@ final List<Map<String, dynamic>> foodData = [
     "2 lembar daun pandan"
   ],
   "about": "Jenang Ayu Niten adalah makanan khas dari Dusun Niten, Desa Balecatur, Gamping, Sleman. Makanan ini dikenal sebagai salah satu bentuk jenang yang disajikan dalam upacara tradisional atau hajatan. Teksturnya lembut, manis gurih, dan legit. Nama 'Ayu Niten' bukan hanya merujuk pada lokasi asalnya, tetapi juga menyimbolkan harapan akan kehidupan yang manis dan indah. Jenang ini sering disajikan sebagai simbol doa dan ucapan syukur dalam tradisi masyarakat Jawa, khususnya di Yogyakarta dan sekitarnya. Warisan kuliner ini menggambarkan nilai-nilai spiritual dan sosial yang melekat dalam budaya lokal.",
-      'image': 'assets/img/Tahu_3.jpg',
+      'image': 'assets/img/Jenang Ayu Niten.jpg',
       'videoId': 'Eu3Jeq5yD4s',
     },
     {
@@ -654,7 +654,7 @@ final List<Map<String, dynamic>> foodData = [
     "Daun pisang (untuk membungkus, opsional)"
   ],
   "about": "Jadah adalah makanan tradisional khas Kaliurang, Sleman, Yogyakarta, yang terbuat dari beras ketan yang dikukus lalu ditumbuk dan dicampur dengan kelapa parut serta sedikit garam. Biasanya disajikan bersama tempe bacem atau tahu bacem, sehingga populer dikenal sebagai 'jadah tempe'. Makanan ini identik dengan wisata kuliner di lereng Merapi dan menjadi oleh-oleh khas dari kawasan Kaliurang. Rasanya gurih, teksturnya kenyal, dan cocok dinikmati hangat. Jadah mencerminkan kesederhanaan sekaligus kehangatan dalam tradisi kuliner pedesaan Jawa.",
-      'image': 'assets/img/Tahu_3.jpg',
+      'image': 'assets/img/Jadah.jpg',
       'videoId': '2VDkdpOjvHA',
     },
     
@@ -675,7 +675,7 @@ final List<Map<String, dynamic>> foodData = [
     "Margarin secukupnya untuk olesan"
   ],
   "about": "Kamir adalah kue khas dari daerah Pekalongan, khususnya dikenal sebagai bagian dari kuliner masyarakat Arab-Indonesia di kawasan tersebut. Bentuknya bulat pipih mirip serabi, namun teksturnya lebih padat seperti pancake. Kamir dibuat dari campuran tepung terigu, telur, ragi, dan terkadang ditambah pisang atau tape untuk memberikan aroma khas. Makanan ini populer sebagai camilan atau sarapan dan biasanya dijual oleh pedagang kaki lima di pagi dan sore hari. Kamir mencerminkan akulturasi budaya Arab dan Jawa yang harmonis dalam bentuk sajian manis dan bergizi.",
-      'image': 'assets/img/Tahu_3.jpg',
+      'image': 'assets/img/Kamir.jpeg',
       'videoId': 'mAh3CzLcUkM',
     },
     
@@ -695,7 +695,7 @@ final List<Map<String, dynamic>> foodData = [
     "Minyak goreng secukupnya"
   ],
   "about": "Ogel-ogel adalah camilan khas Pemalang, Jawa Tengah, yang berbentuk kecil dan lonjong dengan panjang sekitar 2–3 cm, berwarna putih kecoklatan, dan memiliki rasa gurih. Makanan ini dibuat dari campuran tepung ketan, tepung tapioka, telur, gula, garam, dan keju, yang dibentuk menyerupai ulat menggeliat menggunakan alat tradisional. Setelah dibentuk, ogel-ogel digoreng hingga renyah dan gurih. Camilan ini cocok sebagai teman ngopi atau cemilan dalam perjalanan. Ogel-ogel pertama kali diperkenalkan pada tahun 2005 oleh Ibu Isom, seorang warga di Perumahan BTN Kaligelang, dan kini telah dikenal luas di berbagai kota.",
-      'image': 'assets/img/Tahu_3.jpg',
+      'image': 'assets/img/Ogel-ogel.jpg',
       'videoId': '6lM8I8AiyoY',
     },
     {
@@ -727,7 +727,7 @@ final List<Map<String, dynamic>> foodData = [
     "Sambal merah"
   ],
   "about": "Kupat Glabed adalah hidangan khas Tegal yang terdiri dari potongan ketupat yang disiram dengan kuah kuning kental berbahan dasar santan dan rempah-rempah. Nama 'glabed' berasal dari istilah dalam bahasa Tegal yang menggambarkan tekstur makanan yang kental saat masuk ke mulut. Kuahnya yang gurih dan kental diperoleh dari campuran santan dan bumbu halus seperti bawang putih, bawang merah, kemiri, kunyit, kencur, lengkuas, serai, dan ketumbar. Hidangan ini biasanya disajikan dengan pelengkap seperti kerupuk mi kuning, bawang goreng, dan sambal merah untuk menambah cita rasa. Kupat Glabed sering dijajakan oleh pedagang kaki lima dan menjadi salah satu kuliner legendaris yang wajib dicoba saat berkunjung ke Tegal.",
-      'image': 'assets/img/Tahu_3.jpg',
+      'image': 'assets/img/Kupat Glabed.jpeg',
       'videoId': 'dS6xxfGqFr0',
     },
     {
@@ -744,7 +744,7 @@ final List<Map<String, dynamic>> foodData = [
     "Jerami padi atau bahan pembungkus lainnya"
   ],
   "about": "Telor Asin adalah telur bebek yang diawetkan melalui proses pengasinan dan pengeringan selama sekitar 30 hari. Makanan ini merupakan salah satu kuliner khas Kudus, Jawa Tengah, yang sudah ada sejak lama dan digunakan sebagai lauk pelengkap berbagai hidangan. Proses pembuatan telur asin melibatkan perendaman telur dalam campuran garam dan bahan lainnya, kemudian dikeringkan. Telor Asin memiliki rasa asin yang khas dan tekstur yang kenyal serta aroma yang unik. Selain sebagai lauk, telur asin juga bisa diolah menjadi bahan campuran dalam berbagai masakan, seperti nasi goreng dan bubur. Telor Asin Kudus terkenal kualitas dan rasanya yang khas, menjadi oleh-oleh favorit dari daerah tersebut.",
-      'image': 'assets/img/Tahu_3.jpg',
+      'image': 'assets/img/Telor Asin.jpg',
       'videoId': 'gMeqH5DX4Zg',
     },
     {
@@ -766,7 +766,7 @@ final List<Map<String, dynamic>> foodData = [
     "Tusuk sate secukupnya"
   ],
   "about": "Sate Blengong adalah kuliner khas Demak, Jawa Tengah, yang menggunakan daging blengong—jenis bebek hasil persilangan yang memiliki tekstur daging lebih padat dan rasa khas. Daging blengong diolah dengan bumbu tradisional yang kaya rempah, kemudian ditusuk dan dibakar seperti sate pada umumnya. Sate ini terkenal dengan cita rasa gurih dan aroma rempah yang kuat, berbeda dari sate bebek biasa. Sate Blengong sering disajikan dengan sambal kacang dan lontong sebagai pelengkap, dan menjadi salah satu ikon kuliner khas Demak yang banyak diburu wisatawan.",
-      'image': 'assets/img/Tahu_3.jpg',
+      'image': 'assets/img/Sate Blengong.jpg',
       'videoId': 'Wrw3UZBC2UI',
     },
     {
@@ -788,7 +788,7 @@ final List<Map<String, dynamic>> foodData = [
     "Minyak goreng secukupnya"
   ],
   "about": "Brekecek adalah masakan khas Kudus yang berbahan dasar ikan gabus yang dimasak dengan bumbu rempah khas dan santan kental. Hidangan ini memiliki rasa gurih, pedas, dan aroma yang khas dari daun salam serta serai. Proses memasak brekecek melibatkan pengungkepan ikan bersama bumbu sampai meresap dan kuah mengental. Biasanya Brekecek disajikan sebagai lauk utama bersama nasi putih hangat. Masakan ini sudah menjadi hidangan tradisional yang sangat populer di Kudus dan sekitarnya.",
-      'image': 'assets/img/Tahu_3.jpg',
+      'image': 'assets/img/Brekecek.jpg',
       'videoId': '9PTFiKHC1NM',
     },
     {
@@ -812,7 +812,7 @@ final List<Map<String, dynamic>> foodData = [
     "Air secukupnya"
   ],
   "about": "Karedok adalah salad tradisional khas Sunda yang terbuat dari aneka sayuran segar yang disiram dengan saus kacang pedas-manis. Meski berasal dari Jawa Barat, karedok juga populer di Jawa Tengah sebagai menu segar dan sehat. Saus kacang dibuat dengan bahan dasar kacang tanah yang digiling bersama bawang putih, cabai, gula merah, garam, dan air asam jawa. Karedok biasanya disantap sebagai pelengkap lauk-pauk atau sebagai makanan ringan yang menyegarkan.",
-      'image': 'assets/img/Tahu_3.jpg',
+      'image': 'assets/img/Karedok.jpg',
       'videoId': 'gMG57gGdfYc',
     },
     {
@@ -833,7 +833,7 @@ final List<Map<String, dynamic>> foodData = [
     "Daun seledri cincang"
   ],
   "about": "Lontong Dekem adalah makanan khas Magelang yang merupakan variasi dari lontong dengan kuah santan dan bumbu kacang yang khas. Kata 'Dekem' berasal dari bahasa Jawa yang berarti 'berendam', karena lontong ini biasanya disajikan dalam kuah santan yang kental dan gurih. Hidangan ini biasanya ditambahkan tahu, tempe, dan suwiran ayam sebagai pelengkap. Lontong Dekem dikenal dengan rasa gurih dan tekstur lembut dari lontong yang meresap kuah santan berbumbu kacang. Biasanya disajikan saat sarapan atau acara khusus di Magelang dan sekitarnya.",
-      'image': 'assets/img/Tahu_3.jpg',
+      'image': 'assets/img/Lontong Dekem.jpg',
       'videoId': 'rARU_eU_WEs',
     },
     {
@@ -849,7 +849,7 @@ final List<Map<String, dynamic>> foodData = [
     "Minyak goreng secukupnya"
   ],
   "about": "Empis-empis adalah camilan tradisional khas Jepara yang terbuat dari adonan tepung beras yang digoreng tipis dan renyah, kemudian disajikan dengan gula merah cair sebagai pelengkap. Rasanya manis dan gurih dengan tekstur yang renyah dan ringan. Empis-empis biasa disantap sebagai kudapan di sore hari atau saat acara tradisional. Makanan ini cukup mudah dibuat dan menjadi salah satu ikon kuliner ringan dari Jepara.",
-      'image': 'assets/img/Tahu_3.jpg',
+      'image': 'assets/img/Empis-empis.jpg',
       'videoId': 'WKK-RM9f8xM',
     },
     {
@@ -872,7 +872,7 @@ final List<Map<String, dynamic>> foodData = [
     "Bawang goreng dan daun bawang untuk taburan"
   ],
   "about": "Nasi Grombyang adalah makanan khas Tegal yang terdiri dari nasi putih disajikan dalam kuah kaldu sapi yang melimpah, sehingga nasi 'tenggelam' atau 'grombyang' dalam kuahnya. Kuahnya beraroma rempah yang khas dengan daging sapi empuk dan tulang yang memberikan rasa gurih. Nasi Grombyang biasanya dilengkapi dengan irisan daging dan bawang goreng sebagai taburan. Hidangan ini merupakan kuliner khas yang banyak dicari di Tegal dan sekitarnya.",
-      'image': 'assets/img/Tahu_3.jpg',
+      'image': 'assets/img/Nasi Grombyang.jpg',
       'videoId': 'lZN6mlJfy00',
     },
     {
@@ -892,7 +892,7 @@ final List<Map<String, dynamic>> foodData = [
     "Bumbu kacang (kacang tanah goreng, cabai, gula merah, garam, air)"
   ],
   "about": "Sate Loso adalah salah satu varian sate khas Pati yang menggunakan daging ayam kampung dengan bumbu khas yang kaya rempah. Berbeda dengan sate pada umumnya, Sate Loso memiliki cita rasa manis dan gurih yang berpadu dengan bumbu kacang yang pedas-manis. Proses pembuatannya memerlukan teknik membakar sate dengan api yang pas agar daging matang sempurna namun tetap juicy. Sate Loso telah menjadi ikon kuliner Pati dan digemari oleh banyak penikmat sate di Jawa Tengah.",
-      'image': 'assets/img/Tahu_3.jpg',
+      'image': 'assets/img/Sate Loso.jpg',
       'videoId': 'IsRFIBQEEYQ',
     },
     {
@@ -910,7 +910,7 @@ final List<Map<String, dynamic>> foodData = [
     "Es batu secukupnya"
   ],
   "about": "Dawet Hitam adalah minuman tradisional khas Jawa yang menyegarkan, terutama populer di Jawa Tengah. Minuman ini terbuat dari cendol berbahan dasar tepung ketan hitam yang berwarna gelap, disajikan dengan kuah gula merah dan santan kental. Rasanya manis dan gurih, sangat cocok dinikmati saat cuaca panas. Dawet Hitam sering ditemukan di pasar tradisional dan warung makan di daerah Jawa Tengah sebagai minuman pelepas dahaga.",
-      'image': 'assets/img/Tahu_3.jpg',
+      'image': 'assets/img/Dawet Hitam.jpeg',
       'videoId': 'lO1OAYBZe4Q',
     },
     {
@@ -930,7 +930,7 @@ final List<Map<String, dynamic>> foodData = [
     "Minyak goreng untuk menumis"
   ],
   "about": "Sate Ambal adalah sate khas dari Kecamatan Ambal, Kabupaten Kendal, Jawa Tengah. Sate ini terkenal dengan penggunaan daging sapi yang empuk dan bumbu rempah khas yang kuat. Daging sapi yang sudah dibumbui kemudian ditusuk dan dibakar hingga matang sempurna. Sate Ambal memiliki cita rasa gurih dan sedikit manis dari kecap manis yang dipakai. Kuliner ini menjadi favorit masyarakat setempat dan sering dihidangkan dalam acara tradisional.",
-      'image': 'assets/img/Tahu_3.jpg',
+      'image': 'assets/img/Sate Ambal.jpg',
       'videoId': 'f4fhgDHZFUg',
     },
     {
@@ -950,7 +950,7 @@ final List<Map<String, dynamic>> foodData = [
     "Kuah kaldu sapi"
   ],
   "about": "Bakso Lombok Uleg adalah variasi bakso khas Semarang yang disajikan dengan sambal cabe rawit yang diulek segar, memberikan sensasi pedas yang khas. Bakso ini terbuat dari daging sapi pilihan yang digiling dan dicampur dengan tepung tapioka agar teksturnya kenyal dan lembut. Kuahnya gurih dan hangat, sangat cocok dinikmati saat cuaca dingin atau sebagai makanan utama. Sambal lombok uleg yang segar menjadi pelengkap yang membuat rasa bakso ini unik dan menggugah selera.",
-      'image': 'assets/img/Tahu_3.jpg',
+      'image': 'assets/img/Bakso Lombok Uleg.jpg',
       'videoId': 's6jJzmvPZ74',
     },
     {
@@ -972,7 +972,7 @@ final List<Map<String, dynamic>> foodData = [
     "Garam dan merica secukupnya"
   ],
   "about": "Brongkos Kikil adalah masakan tradisional Jawa Tengah dan Yogyakarta yang berupa semur kikil sapi dengan bumbu rempah khas. Hidangan ini terkenal dengan cita rasa manis, gurih, dan sedikit pedas, serta tekstur kikil yang kenyal dan empuk. Proses memasak brongkos memerlukan waktu lama agar bumbu meresap sempurna dan kikil menjadi empuk. Brongkos Kikil sering disajikan sebagai lauk pendamping nasi dan menjadi salah satu hidangan favorit dalam acara tradisional.",
-      'image': 'assets/img/Tahu_3.jpg',
+      'image': 'assets/img/Brongkos Kikil.jpg',
       'videoId': 'e1J9AR85Ghk',
     },
 

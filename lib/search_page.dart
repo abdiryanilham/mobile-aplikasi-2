@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:central_javreseps/components/food_card.dart';
 import 'package:central_javreseps/components/detail_food.dart' as detail;
@@ -14,9 +15,74 @@ class _SearchPageState extends State<SearchPage> {
   final TextEditingController searchController = TextEditingController();
   String searchQuery = '';
 
+  late PageController _pageController;
+  int _currentPage = 0;
+  Timer? _timer;
+
+  final List<Widget> banners = [
+  Card(
+    child: SizedBox(
+      width: double.infinity,
+      height: 400,
+      child: Image.asset(
+        'assets/icon/Frame 280.png',
+        fit: BoxFit.cover,
+      ),
+    ),
+  ),
+  Card(
+    child: SizedBox(
+      width: double.infinity,
+      height: 400,
+      child: Image.asset(
+        'assets/icon/Frame 281.png',
+        fit: BoxFit.cover,
+      ),
+    ),
+  ),
+  Card(
+    child: SizedBox(
+      width: double.infinity,
+      height: 400,
+      child: Image.asset(
+        'assets/icon/Rectangle 1 (1).png',
+        fit: BoxFit.cover,
+      ),
+    ),
+  ),
+];
+
+  @override
+  void initState() {
+    super.initState();
+    _pageController = PageController(viewportFraction: 0.9);
+    _startAutoScroll();
+  }
+
+  void _startAutoScroll() {
+    _timer = Timer.periodic(const Duration(seconds: 3), (Timer timer) {
+      if (_currentPage < banners.length - 1) {
+        _currentPage++;
+      } else {
+        _currentPage = 0;
+      }
+      _pageController.animateToPage(
+        _currentPage,
+        duration: const Duration(milliseconds: 500),
+        curve: Curves.easeInOut,
+      );
+    });
+  }
+
+  @override
+  void dispose() {
+    _pageController.dispose();
+    _timer?.cancel();
+    super.dispose();
+  }
+
   @override
   Widget build(BuildContext context) {
-    // Filter makanan berdasarkan query pencarian
     final filteredFoods = foodData.where((food) {
       final name = food['name']?.toString().toLowerCase() ?? '';
       return name.contains(searchQuery.toLowerCase());
@@ -27,7 +93,6 @@ class _SearchPageState extends State<SearchPage> {
       body: SafeArea(
         child: Column(
           children: [
-            // Title
             const Padding(
               padding: EdgeInsets.all(16),
               child: Align(
@@ -39,7 +104,6 @@ class _SearchPageState extends State<SearchPage> {
               ),
             ),
 
-            // Search field
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16),
               child: TextField(
@@ -75,42 +139,23 @@ class _SearchPageState extends State<SearchPage> {
 
             const SizedBox(height: 16),
 
-            // Horizontal scrollable cards (Placeholder) //
-            SingleChildScrollView(
-              scrollDirection: Axis.horizontal,
-              child: Padding(
-                padding: const EdgeInsets.all(10.0),
-                child: Row(
-                  children: const [
-                    Card(
-                      child: SizedBox(
-                        width: 400,
-                        height: 250,
-                        child: Center(child: Text("Resep A")),
-                      ),
-                    ),
-                    Card(
-                      child: SizedBox(
-                        width: 400,
-                        height: 250,
-                        child: Center(child: Text("Resep B")),
-                      ),
-                    ),
-                    Card(
-                      child: SizedBox(
-                        width: 400,
-                        height: 250,
-                        child: Center(child: Text("Resep C")),
-                      ),
-                    ),
-                  ],
-                ),
+            /// 🔁 Banner Auto Slider
+            SizedBox(
+              height: 250,
+              child: PageView.builder(
+                controller: _pageController,
+                itemCount: banners.length,
+                itemBuilder: (context, index) {
+                  return Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 10),
+                    child: banners[index],
+                  );
+                },
               ),
             ),
 
             const SizedBox(height: 16),
 
-            // List makanan hasil pencarian
             Expanded(
               child: ListView.builder(
                 itemCount: filteredFoods.length,
