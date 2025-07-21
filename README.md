@@ -34,3 +34,9 @@
 
 ## 📁 Struktur Folder
 
+lib/
+├── models/ # Model data makanan
+├── pages/ # Halaman UI: home, search, detail, watchlist
+├── widgets/ # Komponen UI seperti FoodCard
+├── assets/icon/ # Ikon SVG custom untuk navigasi
+
