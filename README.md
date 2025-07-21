@@ -1,16 +1,36 @@
-# central_javreseps
+# 📱 Central JavResep
 
-A new Flutter project.
+**Central JavResep** adalah aplikasi mobile berbasis Flutter yang menyajikan berbagai resep makanan tradisional khas **Jawa Tengah**, seperti Gudeg, Soto Kudus, Garang Asem, dan masih banyak lagi. Aplikasi ini dirancang dengan pendekatan desain minimalis terinspirasi dari **Tailwind CSS** dan menggunakan **penyimpanan lokal**, tanpa database eksternal.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Fitur Utama
 
-A few resources to get you started if this is your first Flutter project:
+- 🏠 **Beranda Dinamis**  
+  Menampilkan daftar resep tradisional secara interaktif dan responsif.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 🔎 **Pencarian Resep**  
+  Cari resep makanan berdasarkan nama atau kata kunci.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 📄 **Halaman Detail Resep**  
+  Lihat bahan-bahan dan langkah memasak setiap resep secara lengkap.
+
+- ❤️ **Watchlist Lokal**  
+  Simpan resep favorit ke dalam daftar tanpa koneksi internet — semua disimpan langsung di perangkat.
+
+- 🎨 **Desain Modern**  
+  Tampilan sederhana, bersih, dan ringan dengan pendekatan gaya seperti Tailwind CSS.
+
+---
+
+## 🔧 Teknologi yang Digunakan
+
+- [Flutter](https://flutter.dev/) – Framework UI lintas platform
+- **Tailwind-style UI** – Menggunakan pendekatan styling yang konsisten dan modular
+- [flutter_svg](https://pub.dev/packages/flutter_svg) – Mendukung ikon SVG tajam dan ringan
+- **Local Storage** – Data watchlist disimpan secara lokal (tanpa database eksternal)
+
+---
+
+## 📁 Struktur Folder
+
